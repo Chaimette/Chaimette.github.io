@@ -45,6 +45,7 @@ blockquote::before{
 	height: 28px;
 	line-height: 28px;
 	padding: 0 1em;
+	/* border: 1px solid #2E2F2F; */
 	border-radius: 5px;
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -52,6 +53,8 @@ blockquote::before{
 	color: #2E2F2F;
 	font-size: 18px;
 	text-decoration: none;
+	/* -webkit-transition: .2s; */
+	/* transition: .2s; */
 }
 .tagcloud01 ul li a:hover {
 	background-color: var(--bs-gold);
@@ -103,6 +106,8 @@ blockquote::before{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* border-bottom-left-radius: 50%; */
+  /* border-bottom-right-radius: 160%; */
 }
 
 .carousel-inner {
