@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 /* #93B7BE -- Light blue */
 /* #F1FFFA -- Mint Cream*/
 /* #F49FBC -- Amaranth pink */
@@ -10,17 +11,91 @@
   --bs-secondary: #F49FBC;
   --bs-gold: #D1AC00;
   --bs-body-color: #2E2F2F;
-  --bs-body-bg: #F1FFFA;
+  --bs-body-bg: white;
 } 
+
+blockquote{
+  font-family: Open Sans;
+}
+
+.card-testimonial {
+  background-color: #2E2F2F;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px 20px rgba(0,0,0,0.3)
+}
+blockquote::before{
+  font-family: Arial;
+  content: "\201C"; 
+}
+
+.tagcloud01 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.tagcloud01 ul li {
+	display: inline-block;
+	margin: 0 .3em .3em 0;
+	padding: 0;
+}
+.tagcloud01 ul li a {
+	display: inline-block;
+	max-width: 150px;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 1em;
+	/* border: 1px solid #2E2F2F; */
+	border-radius: 5px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #2E2F2F;
+	font-size: 18px;
+	text-decoration: none;
+	/* -webkit-transition: .2s; */
+	/* transition: .2s; */
+}
+.tagcloud01 ul li a:hover {
+	background-color: var(--bs-gold);
+	border: 1px solid var(--bs-gold);
+	color: #fff;
+}
+
+.chip {
+  border: solid 1px;
+  border-radius: 20%;
+  padding: 5px;
+  margin: 5px;
+
+}
 
 .gold-color {
   color: var(--bs-gold);
 }
+
+.gold-background {
+  background-color: var(--bs-gold);
+}
+
 .link-secondary-custom {
   color: var(--bs-gold);
 
 }
+.chip.chip-md {
+  height: 42px;
+  line-height: 42px;
+  border-radius: 21px;
+}
 
+.chip.chip-md .close {
+  height: 42px;
+  line-height: 42px;
+  border-radius: 21px;
+}
+.center {
+  text-align:center;
+}
 /* .nav-link { */
 /*   color: var(--bs-gold); */
 /* } */
@@ -31,6 +106,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* border-bottom-left-radius: 50%; */
+  /* border-bottom-right-radius: 160%; */
 }
 
 .carousel-inner {
@@ -96,10 +173,12 @@ button.secondary-color {
 
 .btn:hover {
   background-color: #2E2F2F;
+  color: white;
 }
 
 .btn:active {
   background-color: #2E2F2F;
+  color: white;
 
 }
 .herotext{
@@ -127,4 +206,20 @@ p{
   background-color: rgba(197, 197, 197, 0.322);
   text-overflow: ellipsis;
   
+
+#page-footer{
+  border-top: solid 1px var(--bs-body-color);
+  font-size: 18px;
+}
+#page-footer ul{
+  list-style-type: none;
+}
+
+#page-footer li a{
+  color: grey;
+  text-decoration: none;
+}
+
+#page-footer a:hover{
+  text-decoration: underline;
 }
