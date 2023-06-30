@@ -160,14 +160,14 @@ blockquote::before{
 /* } */
 
 button.primary-color {
-  background-color: var(--bs-primary);
-  border-color: var(--bs-primary);
+background-color: var(--bs-gold);
+border-color: var(--bs-gold);
 
 }
 
 button.secondary-color {
-  background-color: var(--bs-secondary);
-  border-color: var(--bs-secondary);
+  background-color: var(--bs-gold);
+  border-color: var(--bs-gold);
 
 }
 
