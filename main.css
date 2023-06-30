@@ -205,7 +205,7 @@ p{
 .bg-quote{
   background-color: rgba(197, 197, 197, 0.322);
   text-overflow: ellipsis;
-  
+}
 
 #page-footer{
   border-top: solid 1px var(--bs-body-color);
