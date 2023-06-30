@@ -1,0 +1,104 @@
+/* #93B7BE -- Light blue */
+/* #F1FFFA -- Mint Cream*/
+/* #F49FBC -- Amaranth pink */
+/* #D1AC00 -- Goled metallic */
+/* #2E2F2F -- Jet */
+
+
+:root, [data-bs-theme=light] {
+  --bs-primary: #93B7BE !important; 
+  --bs-secondary: #F49FBC;
+  --bs-gold: #D1AC00;
+  --bs-body-color: #2E2F2F;
+  --bs-body-bg: #F1FFFA;
+} 
+
+.gold-color {
+  color: var(--bs-gold);
+}
+.link-secondary-custom {
+  color: var(--bs-gold);
+
+}
+
+/* .nav-link { */
+/*   color: var(--bs-gold); */
+/* } */
+.jumbotron-hero {
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./static/banner.jpg");
+  /* -webkit-filter: blur(8px); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-inner {
+  height: 0;
+  padding-bottom: 75%;
+}
+
+.carousel-item {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit:cover;
+}
+
+.jbt-text-hero {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  z-index: 2;
+  padding: 20px;
+  width: 80%;
+  top: 70%;
+  text-align: center;
+
+}
+
+.jbt-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  /* position: absolute; */
+  /* transform: translate(-50%, -50%); */
+  z-index: 2;
+  /* padding: 20px; */
+  text-align: center;
+}
+/* .primary-color { */
+/*   background-color: var(--bs-primary); */
+   /* border-color: var(--bs-primary); */ 
+/* } */
+
+button.primary-color {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+
+}
+
+button.secondary-color {
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+
+}
+
+.btn:hover {
+  background-color: #2E2F2F;
+}
+
+.btn:active {
+  background-color: #2E2F2F;
+
+}
